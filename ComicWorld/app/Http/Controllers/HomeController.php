@@ -2,6 +2,6 @@
 
 class HomeController extends Controller {
 
-	
+
 
 }
