@@ -1,12 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" >
   <head>
+      {{--Angular JS--}}
+      <script src="{{asset("js/angular/angular.min.js")}}"></script>
+      <script src="{{asset("js/angular/angular-route.min.js")}}"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js"></script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iComic - @yield('title')</title>
     <link rel="stylesheet" href={{ asset('css/foundation.css')}} />
     <link rel="stylesheet" href={{ asset('css/main.css')}} />
-    <script src="js/vendor/modernizr.js"></script>
+
   </head>
   <body>
 
@@ -30,6 +35,7 @@
     @yield('content')
     </div>
 
+<<<<<<< HEAD
     
     <footer class="row fullWidth">
         <ul>
@@ -46,6 +52,12 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+=======
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src={{ asset("js/foundation.min.js") }}></script>
+    <script src={{ asset("js/vendor/modernizr.js") }}></script>
+>>>>>>> bhawan
     <script>
       $(document).foundation();
     </script>
