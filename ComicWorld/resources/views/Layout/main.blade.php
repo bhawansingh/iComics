@@ -10,21 +10,40 @@
   </head>
   <body>
 
-    <nav class="top-bar navigation-top" data-topbar>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name"></li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
       <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Comics</a></li>
           <li><a href="#">Movies</a></li>
+          <li><a href="#">Discover</a></li>
           <li><a href="#">Social</a></li>
         </ul>
       </section>
     </nav>
     
-    @yield('main')
+    <div class="wrapper_search fullwidth">
+    @yield('content')
+    </div>
 
     
+    <footer class="row fullWidth">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+
+    </footer>
+
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
