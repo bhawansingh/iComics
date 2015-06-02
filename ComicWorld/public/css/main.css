@@ -5,29 +5,93 @@
 
 
 body{
+background: #FFFFFF;
 
-background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
 }
 
-h1{
-	color: #ffffff;
-	opacity: 0.8;
+nav.top-bar {
+	text-align:center;
+	background-image: url("../../img/concrete_wall.png");
 }
 
-.navigation-top{
-	/*height: 100px;*/
+
+section.top-bar-section {
+	display: inline-block;
+	margin-left: 11px 2px;
 }
 
-.navigation-top ul li{
-	margin: 0px auto;
+.wrapper_search{
+	background-color: #000000;
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+	z-index: -1;
+	-webkit-box-shadow: 0px 11px 25px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 11px 25px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 11px 25px -15px rgba(0,0,0,0.75);
 }
 
-nav section ul{
-	margin-right: 20px;
+.fullWidth{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+
+.iron{
+	position: absolute;
+	width: 600px;
+	opacity: 0.4;
+	right: -150px;
+	height: 350px;
+	top: -10px;
+}
+
+.captain{
+	position: absolute;
+	opacity: 0.3;
+	left: -130px;
+	width: 480px;
+	height: 350px;
+	top: -25px;
+	z-index: -1;
+}
+
+.hulk{
+	position: absolute;
+	top: 160px;
+	width: 350px;
+	height: 300px;
+	opacity: 0.6;
+	left: 470px;
+	z-index: -1;
+}
+
+.search_home{
+	top: 120px;
+}
+
+.search_home ul{
+	list-style-type: none;
+}
+
+.search_home ul li{
+	float: right;
+}
+
+.button{
+	background: #12273B;
+	border: 2px solid #12273B;
+}
+
+td{
+	border: 1px solid black;
+}
+
+footer{
+	clear: both;
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+	background-image: url("../../img/concrete_wall.png");
 }
